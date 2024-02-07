@@ -1,0 +1,26 @@
+{
+	"name": "rajra/demo",
+	"authors": [
+		{
+			"name": "Sachin Sudani",
+			"email": "sachinsudani60@gmail.com"
+		}
+	],
+	"require": {
+		"illuminate/collections": "^10.42"
+	},
+	"autoload": {
+		"psr-4": {
+			"Core\\": "Core/",
+			"Http\\": "Http/"
+		}
+	},
+	"require-dev": {
+		"pestphp/pest": "^2.33"
+	},
+	"config": {
+		"allow-plugins": {
+			"pestphp/pest-plugin": true
+		}
+	}
+}
